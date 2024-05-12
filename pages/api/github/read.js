@@ -4,7 +4,7 @@ import isAdmin from 'middleware/admin'
 export default async function handler(req, res) {
 	isAdmin(req, res, async () => {
 		try {
-			const response = await axios.get(`${process.env.NEXT_PUBLIC_GITHUB_LINK}/data/projects.json`, {
+			const response = await axios.get(`${process.env.NEXT_PUBLIC_GITHUB_LINK}/contents/data/projects.json`, {
 				headers: {
 					Authorization: `token ${process.env.GITHUB_TOKEN}`
 				}
