@@ -137,7 +137,7 @@ const Project = () => {
 					<p className='mt-2 mb-6'>
 						<span className='text-lg '>1. Upload image: </span>
 						<a
-							href='https://github.com/itrocket-am/itrocket/upload/main/public/mainnet'
+							href='https://github.com/adhiutomo787982909/itrocket/upload/main/public/mainnet'
 							target='_blank'
 							rel='noopener noreferrer'
 							className='flex gap-2 mt-2 ml-1'
